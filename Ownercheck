@@ -1,0 +1,134 @@
+-- Special made checkers
+-- The plaza
+
+  if game:service('Players').LocalPlayer.UserId == 1115062717 -- X0x's alt
+or game:service('Players').LocalPlayer.UserId == 3711413707 -- X0x's alt
+or game:service('Players').LocalPlayer.UserId == 460851823 or-- X0x's alt
+ game:service('Players').LocalPlayer.UserId == 1265448855 or -- X0x's alt
+game:service('Players').LocalPlayer.UserId == 509260689  or  -- Herbert's alt
+game:service('Players').LocalPlayer.UserId == 840982885 or -- Herbert's alt
+game:service('Players').LocalPlayer.UserId == 140716995 -- Herbert's alt
+then
+print("You are the owner")
+
+    local acc = {"qwdqwdqwdqwdqasd","X0XTYTYTYTYTYTX0X","jackzanderYT","gottabigcarnamed"}
+
+    for _, v in pairs(game:GetService("Players"):GetChildren()) do
+        if table.find(acc, tostring(v.Name)) then
+                            game.StarterGui:SetCore("SendNotification", {
+          Icon = "rbxassetid://10223592622"; 
+        Title = "▀▄『R』『1』▄▀";
+        Text = "\nR1: Rate 1 Owner In The Server                                                                              Name: "..tostring(v.Name);
+        Duration = 15;
+    })
+
+--game:GetService("ReplicatedStorage").ServerStats.CustomChat.ChattedIn:FireServer("Hi x0x ❤️")
+
+rint("You are not the owner")
+        end
+    end
+    
+    game:GetService("Players").PlayerAdded:Connect(function(plr)
+        if table.find(acc, tostring(plr.Name)) then
+                game.StarterGui:SetCore("SendNotification", {
+        Title = "▀▄『R』『1』▄▀";
+        Text = "\nR1: x0x Owner In The Server\n\nName: "..tostring(v.Name) .." \nDisplay Name: "..tostring(v.DisplayName) .."\n";
+        Icon = ""; 
+        Duration = 15;
+    })
+        end
+    end)
+
+	    local acc = {"EatAnyLad200","FreePetDominus","UberOniMain","Luck0_TheClOwn"}
+
+    for _, v in pairs(game:GetService("Players"):GetChildren()) do
+        if table.find(acc, tostring(v.Name)) then
+                            game.StarterGui:SetCore("SendNotification", {
+          Icon = "rbxassetid://10223592622"; 
+        Title = "▀▄『R』『1』▄▀";
+        Text = "\nR1: Rate 1 Owner In The Server                                                                              Name: "..tostring(v.Name);
+        Duration = 15;
+    })
+
+--game:GetService("ReplicatedStorage").ServerStats.CustomChat.ChattedIn:FireServer("Hi Loser ❤️")
+        end
+    end
+    
+    game:GetService("Players").PlayerAdded:Connect(function(plr)
+        if table.find(acc, tostring(plr.Name)) then
+                game.StarterGui:SetCore("SendNotification", {
+        Title = "▀▄『R』『1』▄▀";
+        Text = "\nR1: Herbert Co-Owner In The Server\n\nName: "..tostring(v.Name) .." \nDisplay Name: "..tostring(v.DisplayName) .."\n";
+        Icon = ""; 
+        Duration = 15;
+    })
+        end
+    end)
+    
+
+else   
+    local acc = {"qwdqwdqwdqwdqasd","X0XTYTYTYTYTYTX0X","jackzanderYT","gottabigcarnamed"}
+
+    for _, v in pairs(game:GetService("Players"):GetChildren()) do
+        if table.find(acc, tostring(v.Name)) then
+                            game.StarterGui:SetCore("SendNotification", {
+          Icon = "rbxassetid://10223592622"; 
+        Title = "▀▄『R』『1』▄▀";
+        Text = "\nR1: Rate 1 Owner In The Server                                                                              Name: "..tostring(v.Name);
+        Duration = 15;
+    })
+
+
+local args = {
+    [1] = "/w "..tostring(v.Name) .." Hi x0x, I'm using your script!";
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+print("Owner Check: You are not the owner")
+        end
+    end
+    
+    game:GetService("Players").PlayerAdded:Connect(function(plr)
+        if table.find(acc, tostring(plr.Name)) then
+                game.StarterGui:SetCore("SendNotification", {
+        Title = "▀▄『R』『1』▄▀";
+        Text = "\nR1: x0x Owner In The Server\n\nName: "..tostring(v.Name) .." \nDisplay Name: "..tostring(v.DisplayName) .."\n";
+        Icon = ""; 
+        Duration = 15;
+    })
+        end
+    end)
+    
+    	    local acc = {"EatAnyLad200","FreePetDominus","UberOniMain","Luck0_TheClOwn"}
+
+    for _, v in pairs(game:GetService("Players"):GetChildren()) do
+        if table.find(acc, tostring(v.Name)) then
+                            game.StarterGui:SetCore("SendNotification", {
+          Icon = "rbxassetid://10223592622"; 
+        Title = "▀▄『R』『1』▄▀";
+        Text = "\nR1: Rate 1 Owner In The Server                                                                              Name: "..tostring(v.Name);
+        Duration = 15;
+    })
+
+local args = {
+    [1] = "/w "..tostring(v.Name) .." Hi Herbert, I'm using your script!";
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+        end
+    end
+    
+    game:GetService("Players").PlayerAdded:Connect(function(plr)
+        if table.find(acc, tostring(plr.Name)) then
+                game.StarterGui:SetCore("SendNotification", {
+        Title = "▀▄『R』『1』▄▀";
+        Text = "\nR1: Herber Co-Owner In The Server\n\nName: "..tostring(v.Name) .." \nDisplay Name: "..tostring(v.DisplayName) .."\n";
+        Icon = ""; 
+        Duration = 15;
+    })
+        end
+    end)
+    
+
+   end
