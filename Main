@@ -85,24 +85,34 @@ if _G.key == 'bbd98b933e1147d0ae' then
 	-- Plaza
 	if game.PlaceId == 347401822 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))() -- Plaza
-	elseif game.PlaceId == 1499872953 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/sdafkoaajfsod"))() -- Boku No Roblox
 	elseif game.PlaceId == 5394388896 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Universe"))() -- AUU
-	elseif game.PlaceId == 2098516465 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/RHS2"))() -- RHS2
+		loadstring(game:HttpGet(""))() -- AAU
+			local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "▀▄『R』『1』▄▀";
+			Text = "Game needs to be recoded just wait";
+			Icon = "rbxassetid://10223592622";
+			Duration = 10;
+			Callback = NotificationBindable;
+		}) 
 	elseif game.PlaceId == 6700823483 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/PenisEnlargementPills"))() -- Idiotic Investing
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/R1/main/Idiotic"))() -- Idiotic Investing
 	elseif game.PlaceId == 4924922222 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/SEX0XLMAOAIDSIHAVECANCER"))() -- Brookhaven
 	elseif game.PlaceId == 579955134 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/AutoSEXbattles"))() -- Auto Rap Battles
+		loadstring(game:HttpGet(""))() -- Auto Rap Battles
+			local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "▀▄『R』『1』▄▀";
+			Text = "Game needs to be recoded just wait";
+			Icon = "rbxassetid://10223592622";
+			Duration = 10;
+			Callback = NotificationBindable;
+		}) 
 	elseif game.PlaceId == 3403279477 then
 		game.Players.LocalPlayer:Kick("Die weirdo cunt, fuck off")
-	elseif game.PlaceId == 1537690962 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/BeeCUMsimulator"))() -- Bee Swarm Sim
-		elseif game.PlaceId == 8798268679 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/crc"))() -- CRC
 		elseif game.PlaceId == 4325400580 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Losersgaylmao"))() -- Army Tycoon
 	else
