@@ -84,7 +84,7 @@ if _G.key == 'bbd98b933e1147d0ae' then
 
 	-- Plaza
 	if game.PlaceId == 347401822 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))() -- Plaza
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/R1/main/ThePlaza"))() -- Plaza
 	elseif game.PlaceId == 5394388896 then
 		loadstring(game:HttpGet(""))() -- AAU
 			local NotificationBindable = Instance.new("BindableFunction")
@@ -112,7 +112,7 @@ if _G.key == 'bbd98b933e1147d0ae' then
 	elseif game.PlaceId == 3403279477 then
 		game.Players.LocalPlayer:Kick("Die weirdo cunt, fuck off")
 		elseif game.PlaceId == 4325400580 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Losersgaylmao"))() -- Army Tycoon
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/R1/main/ArmyTycoon"))() -- Army Tycoon
 	else
 		local NotificationBindable = Instance.new("BindableFunction")
 		NotificationBindable.OnInvoke = callback
